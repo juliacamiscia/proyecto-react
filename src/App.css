@@ -1,0 +1,112 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: lobster;
+  src: url(../fonts/Lobster-Regular.ttf);
+}
+
+@font-face{
+  font-family: maliExtraLight;
+  src: url(../fonts/Mali-ExtraLight.ttf);
+}
+@font-face {
+  font-family: maliLight;
+  src: url(../fonts/Mali-Light.ttf);
+}
+@font-face {
+  font-family: maliSemiBold;
+  src: url(../fonts/Mali-SemiBold.ttf);
+}
+@font-face {
+  font-family: maliBold;
+  src: url(../fonts/Mali-Bold.ttf);
+}
+
+/* ENCABEZADO */
+
+header{
+  background-image: url(../images/fondomickey.jpg);
+}
+
+.encabezado__logo{
+  display: inline-block;
+  border: dotted 3px black;
+  border-radius: 200px;
+  margin: 40px 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.encabezado__titulo{
+  display: inline-block;
+  margin: 20px 180px;
+  padding: 20px 20px;
+  width: 50%;
+  font-family: lobster;
+  font-size: 60px;
+  background-image: linear-gradient(to left, white, rgb(228, 215, 226));
+  border-radius: 15px;
+  text-align: center;
+}
+
+h2{
+  display:block;
+  font-family: lobster;
+  font-size: 24px;
+  color: rgb(7, 7, 7);
+  text-align: center;
+  padding: 8px;
+}
+h3{
+  font-family: lobster;
+  font-size: 20px;
+  color:  #FFFAE4;
+  text-align: center;
+  background-color: darkslateblue;
+  display: inline-block;
+  padding: 8px;
+  border-radius: 5px;
+}
