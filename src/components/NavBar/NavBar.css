@@ -17,7 +17,7 @@ a{
     color: darkslateblue;
 }
 
-a:hover{
+.navegacion a:hover{
     background-image: linear-gradient(white, rgb(214, 182, 188));
     border-radius: 10px;
     padding: 8px;

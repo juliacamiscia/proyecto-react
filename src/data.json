@@ -1,0 +1,16 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "nombre":"- Orejas Minnie Encanto -",
+            "precio":12000,
+            "imagen":"./src/catalogo/earEncanto.jpg"
+        },
+        {
+            "id": 2,
+            "nombre":"- Orejas Mickey -",
+            "precio":10000,
+            "imagen":"./src/catalogo/earMickey.jpg"
+        }
+    ]
+}

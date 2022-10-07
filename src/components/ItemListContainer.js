@@ -1,5 +1,5 @@
 import "./ItemListContainer.css";
-
+import Catalogo from "../routes/Catalogo/Catalogo";
 
 const ItemListContainer = ({greeting}) =>{
     return(
@@ -8,5 +8,7 @@ const ItemListContainer = ({greeting}) =>{
         </div>
     )
 }
+
+<Catalogo />;
 
 export default ItemListContainer;
