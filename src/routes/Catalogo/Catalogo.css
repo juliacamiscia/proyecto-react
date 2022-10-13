@@ -1,0 +1,54 @@
+.cardDisney{
+    border-radius: 20px;
+    background-image: linear-gradient(to top, white, rgb(214, 182, 188));
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+}
+.cardDisney img{
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;    
+}
+
+.nombreProducto{
+    font-family: lobster;
+    font-size: 24px;
+    color: darkslateblue;
+    margin-bottom: 15px;
+}
+
+.precio{
+    font-family: maliLight;
+    font-size: 16px;
+    background-color: lightslategrey;
+    border-radius: 10px;
+    color: antiquewhite;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    width: 140px;
+    padding: 10px;
+}
+.botonDetalle{
+    color:darkslateblue;
+    background-color: #E9C8EC;
+    font-size: 15px;
+    font-family: maliSemiBold;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: antiquewhite;
+    justify-content: center;
+    text-align: center;
+}
+
+.botonDetalle:hover{
+    background-image: linear-gradient(white, rgb(214, 182, 188));
+    border-radius: 10px;
+}

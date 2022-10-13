@@ -1,43 +1,39 @@
 import { useEffect , useState } from "react";
 import {Link} from "react-router-dom";
-// import productos from "./data.json";
+import "./Catalogo.css";
 
 const Catalogo = () => {
     
     const [productos, setProductos] = useState ([]);
 
     useEffect(() =>{
-        fetch("./data.json")
+        fetch("https://www.mockachino.com/a61cd27f-3a65-40/productos")
             .then((response) => response.json())
-            .then( data => setProductos = data)
+            .then((data) => setProductos(data.productos))
             .catch((error) => console.log(error))
 
         }, []);
     
         return (
             <div>
-                {Object.keys(productos).length === 0 ? (
-                <div>Cargando...</div>
+                {productos.length === 0 ? (
+                    <div>Cargando...</div>
             ) : (     
             <div>
-                {productos.results.map((producto) => {
-                    
-                    const id = producto.id; 
-                    
-        return (
-            <div key={id}>
-                <Link to={`/CatalogoId/${id}`}>{producto.id}</Link>
-                <div> {producto.nombre} </div>;
-                    <div> {producto.imagen} </div>;
-                    <div> $ {producto.precio} </div>;
-                    <button>Más detalles del producto <Link to= {"/CatalogoId"} /></button>;
+                {productos.map((producto) => {
+                    return (
+                        <div key={producto.id} className="cardDisney">
+                            <div className="nombreProducto"> {producto.nombre} </div>
+                            <img src={producto.imagen} />
+                            <div className="precio"> $ {producto.precio} </div>
+                            <Link to={`/CatalogoId/${producto.id}`}><button className="botonDetalle"> Más detalles del producto </button></Link>
+                        </div>
+                    );
+                })}
             </div>
-        );
-            })}
-        </div>
         )}
-            </div>
-        );
+    </div>
+);
 };
 
 export default Catalogo;

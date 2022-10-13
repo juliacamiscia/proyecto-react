@@ -4,13 +4,49 @@
             "id": 1,
             "nombre":"- Orejas Minnie Encanto -",
             "precio":12000,
-            "imagen":"./src/catalogo/earEncanto.jpg"
+            "imagen":"https://drive.google.com/drive/folders/158Kt68M26BkxcoZx4_pIAd36b4qbeGui"
         },
         {
             "id": 2,
             "nombre":"- Orejas Mickey -",
             "precio":10000,
-            "imagen":"./src/catalogo/earMickey.jpg"
+            "imagen":"https://drive.google.com/file/d/1XbM6OvKzBY_1H20xFAFzBKXDp1o0aD-U/view?usp=sharing"
+        },
+        {
+            "id": 3,
+            "nombre":"- Orejas Minnie Glitter -",
+            "precio":12000,
+            "imagen":""
+        },
+        {
+            "id": 4,
+            "nombre":"- Orejas Minnie RoseGold -",
+            "precio":12000,
+            "imagen":""
+        },
+        {
+            "id": 5,
+            "nombre":"- Magic Band Mickey -",
+            "precio":12000,
+            "imagen":""
+        },
+        {
+            "id": 6,
+            "nombre":"- Magic Band Bambi -",
+            "precio":12000,
+            "imagen":""
+        },
+        {
+            "id": 7,
+            "nombre":"- Magic Band Avengers -",
+            "precio":12000,
+            "imagen":""
+        },
+        {
+            "id": 8,
+            "nombre":"- Magic Band Pride -",
+            "precio":12000,
+            "imagen":""
         }
     ]
 }
